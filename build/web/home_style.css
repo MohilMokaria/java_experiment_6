@@ -1,0 +1,22 @@
+html {
+    font-family: Arial, sans-serif;
+    padding: 3%;
+}
+
+hr{
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+.sendbtn{
+    width: 40%;
+}
+
+.addBtn{
+    max-width: 10%; 
+}
+
+#my_card{
+    margin: 0 8%;
+    margin-top: 2rem;
+}
