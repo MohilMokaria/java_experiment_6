@@ -80,9 +80,9 @@ public class HomeServlet extends HttpServlet {
                     }
                 }
 
-                request.setAttribute("recipeList", recipeList);
+                session.setAttribute("recipeList", recipeList);
                 RequestDispatcher rd = request.getRequestDispatcher("home.jsp");
-                rd.include(request, response);
+                rd.forward(request, response);
             }
         } catch (ClassNotFoundException | SQLException ex) {
             Logger.getLogger(HomeServlet.class.getName()).log(Level.SEVERE, null, ex);
